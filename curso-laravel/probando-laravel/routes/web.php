@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/Holamundo',function(){
+    return 'Hola Mundo mi nombre es Johann';
+});
+
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});
