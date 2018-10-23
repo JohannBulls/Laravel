@@ -29,4 +29,4 @@ mix.styles([
     //GenesisUI main scripts
     'resources/plantilla/js/template.js'
 ], 'public/js/plantilla.js')
-.js (['resources/js/app.js'],'public/js/app.js');
+.js (['resources/js/app.js'],'public/js/app.js ');
